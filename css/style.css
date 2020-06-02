@@ -1,8 +1,151 @@
-body{
+body {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
-html{
+
+html {
     scroll-behavior: smooth;
+}
+
+
+/* header part start */
+
+.header-part {
+    background-image: url(../img/top-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.color {
+    color: orange;
+}
+
+.my-content h1 {
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-top: 53px;
+    font-size: 60px;
+    letter-spacing: 2px;
+}
+
+.my-content h2 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+.my-content p {
+    width: 94%;
+    text-align: justify;
+    line-height: 28px;
+    font-weight: normal;
+}
+
+.main-img img {
+    width: 500px;
+    padding-top: 30px;
+}
+
+.btn-custom {
+    padding: 6px 20px;
+    background-color: #FB6B58;
+    border-radius: 0;
+    color: #ffffff;
+    text-transform: uppercase;
+    transition: 0.5s all ease;
+}
+
+.btn-custom:hover {
+    background-color: transparent;
+    border: 1px solid #FB6B58;
+    color: #FB6B58;
+}
+
+
+/* header part start */
+
+
+/* middle paert start */
+
+.middle-part {
+    padding: 90px;
+    background-image: url(../img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.image-area img {
+    width: 350px;
+}
+
+.btn-custom-2 {
+    padding: 6px 20px;
+    background-color: #FB6B58;
+    border-radius: 0;
+    color: #ffffff;
+    text-transform: uppercase;
+    transition: 0.5s all ease;
+}
+
+.btn-custom-2:hover {
+    background-color: transparent;
+    border: 1px solid #FB6B58;
+    color: #FB6B58;
+}
+
+
+/* middle paert end */
+
+.experience {
+    background-image: url(../img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 80px;
+    padding: 80px;
+}
+
+.experience h2 {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.left-part {}
+
+.left-part h2,
+.right-part h2 {
+    margin: 0;
+    padding-bottom: 8px;
+}
+
+.left-part h3,
+.right-part h3 {
+    font-size: 14px;
+    color: orange;
+    margin: 0;
+}
+
+.left-part {
+    box-shadow: -13px 8px 46px #ddd;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.right-part {
+    box-shadow: -13px 8px 46px #ddd;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#left-border {
+    border-left: 7px solid;
+    border-image: linear-gradient(lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+#right-border {
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(83, 73, 175), rgb(11, 25, 102));
+    border-image-slice: 1;
 }
